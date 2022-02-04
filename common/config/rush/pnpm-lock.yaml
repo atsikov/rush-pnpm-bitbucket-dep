@@ -1,0 +1,25 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@rush-temp/package-a': file:./projects/package-a.tgz
+  rush-pnpm-test: ssh://git@bitbucket.org:atsikov-revo/rush-pnpm-test#master
+
+dependencies:
+  '@rush-temp/package-a': file:projects/package-a.tgz
+  rush-pnpm-test: git@bitbucket.org+atsikov-revo/rush-pnpm-test/3466c37ef722d130d9bbcd14c72a89c409432d66
+
+packages:
+
+  file:projects/package-a.tgz:
+    resolution: {integrity: sha512-IGZcvUzTIN7kALye9n4gFuh8nWXFrWp4P/UT2btEHCRDJvVODIGJgVsFNOGnDYc543OmTs8keZBa5tkMMoHIgg==, tarball: file:projects/package-a.tgz}
+    name: '@rush-temp/package-a'
+    version: 0.0.0
+    dependencies:
+      rush-pnpm-test: git@bitbucket.org+atsikov-revo/rush-pnpm-test/3466c37ef722d130d9bbcd14c72a89c409432d66
+    dev: false
+
+  git@bitbucket.org+atsikov-revo/rush-pnpm-test/3466c37ef722d130d9bbcd14c72a89c409432d66:
+    resolution: {commit: 3466c37ef722d130d9bbcd14c72a89c409432d66, repo: git@bitbucket.org:atsikov-revo/rush-pnpm-test.git, type: git}
+    name: rush-pnpm-test
+    version: 1.0.0
+    dev: false

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.61.3",
+  "pnpmVersion": "6.29.1",
+  "pnpmOptions": {
+    "useWorkspaces": false
+  },
+  "ensureConsistentVersions": true,
+  "projects": [
+    {
+      "packageName": "package-a",
+      "projectFolder": "packages/a"
+    }
+  ]
+}

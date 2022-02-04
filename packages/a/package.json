@@ -1,0 +1,6 @@
+{
+  "name": "package-a",
+  "dependencies": {
+    "rush-pnpm-test": "ssh://git@bitbucket.org:atsikov-revo/rush-pnpm-test#master"
+  }
+}
